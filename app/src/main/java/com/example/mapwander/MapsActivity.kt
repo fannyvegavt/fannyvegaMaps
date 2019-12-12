@@ -151,7 +151,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         map = googleMap
         //==============================================================================================
-        //kost putri cemara
+        //UTY HEBAT
 
         val latitude = -7.747033
         val longitude = 110.355398
