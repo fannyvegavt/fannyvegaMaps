@@ -153,14 +153,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         //==============================================================================================
         //kost putri cemara
 
-        val latitude = -7.757351
-        val longitude = 110.355068
+        val latitude = -7.747033
+        val longitude = 110.355398
 
         val homeLatLng = LatLng(latitude, longitude)
         val zoomLevel = 15f
 
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(homeLatLng, zoomLevel))
-        map.addMarker(MarkerOptions().position(homeLatLng).title("Kost Putri Cemara"))
+        map.addMarker(MarkerOptions().position(homeLatLng).title("Universitas Teknologi Yogyakarta"))
         //==============================================================================================
 
         setMapLongClick(map)
@@ -178,4 +178,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         map.addGroundOverlay(androidOverlay)
         //==============================================================================================
     }
+
 }
